@@ -1,0 +1,147 @@
+.body-fadeout {
+	position: absolute;
+	z-index: 1010;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .65);
+	display: none;
+}
+
+.is-faded-out {
+	display: block;
+}
+
+body {
+	height: 100%;
+	min-height: 100%;
+}
+
+.weather-container {
+	border: 1px solid blueviolet;
+	height: 600px;
+	max-width:700px;
+	margin: auto;
+	/* height: calc(100% - 164px);
+	min-height: calc(100% - 164px); */
+}
+
+#app-header {
+	text-align: center;
+	margin: 15px;
+}
+
+.toolbar {
+	height: 20px;
+	border-top: 1px solid blueviolet;
+	border-bottom: 1px solid blueviolet;
+	padding: 10px;
+}
+
+.left-items {
+	float:left;
+}
+
+#city-search {
+	margin-left: 10px;
+}
+
+.right-items {
+	float:right;
+	display: inline-flex;
+}
+
+.card-container {
+	padding: 10px;
+	height: calc(100% - 155px);
+	max-height: calc(100% - 155px);
+	overflow: auto;
+	position: relative;
+}
+
+#card-list-container{
+	display: flex;
+	flex-wrap: wrap;
+	padding:0px;
+	margin: 0px;
+	width: 100%;
+	height:100%;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.card {
+	height:120px;
+	width: 150px;
+	border: 1px solid blueviolet;
+	border-radius: 12%;
+	list-style: none;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+.card-details {
+	height: 33.33%
+}
+
+.modal-card-details {
+	height: 25%;
+}
+
+#cityName {
+	font-weight: 300px;
+}
+
+#temp{
+	text-align: right;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#climateType {
+	font-weight: 300px;
+}
+
+.footer {
+	padding: 10px;
+}
+
+#nextButton {
+	float: right;
+}
+
+.card-modal {
+	height:250px;
+	width:250px;
+	top:50%;
+	left:50%;
+	z-index:1011;
+	border: 1px solid black;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	display: none;
+	background-color: white;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.is-modal-visible {
+	display: block;
+	opacity: 1;
+}
+
+#modal-close {
+	float: right;
+}
+
+.card-modal-details {
+	height:calc(100% - 22px);
+	float: left;
+	box-sizing: border-box;
+}
+
+.selected {
+	background-color: lightblue;
+}

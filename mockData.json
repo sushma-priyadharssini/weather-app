@@ -1,0 +1,97 @@
+{
+	"metadata": {
+		"weatherType": [
+			"Sunny",
+			"Cloudy",
+			"Snowy"
+		],
+		"unit": "Celsius",
+		"pageSize": 6,
+		"temperatureColor": [{
+				"range": [-10, 20],
+				"color": "green"
+			},
+			{
+				"range": [21, 35],
+				"color": "blue"
+			},
+			{
+				"range": [36, 55],
+				"color": "red"
+			}
+		]
+	},
+	"cities": [{
+			"name": "Mumbai",
+			"temperature": 35,
+			"type": "Sunny",
+			"description": "Hot and humid."
+		},
+		{
+			"name": "Delhi",
+			"temperature": 42,
+			"type": "Sunny",
+			"description": "Very sunny with chances of rain in the evening."
+		},
+		{
+			"name": "Bangalore",
+			"temperature": 28,
+			"type": "Cloudy",
+			"description": "Warm with rain."
+		},
+		{
+			"name": "Hyderabad",
+			"temperature": 35,
+			"type": "Sunny",
+			"description": "Hot and humid"
+		},
+		{
+			"name": "Ahmedabad",
+			"temperature": 32,
+			"type": "Cloudy",
+			"description": "Hot with occational rain"
+		},
+		{
+			"name": "Chennai",
+			"temperature": 41,
+			"type": "Sunny",
+			"description": "Extremly hot and humid"
+		},
+		{
+			"name": "Kolkata",
+			"temperature": 38,
+			"type": "Sunny",
+			"description": "Possibility of thunderstorm in the evening"
+		},
+		{
+			"name": "Surat",
+			"temperature": 29,
+			"type": "Cloudy",
+			"description": "Hot and humid"
+		},
+		{
+			"name": "Pune",
+			"temperature": 27,
+			"type": "Cloudy",
+			"description": "Pleasant weather with cool breeze"
+		},
+		{
+			"name": "Jaipur",
+			"temperature": 35,
+			"type": "Sunny",
+			"description": "Hot and humid"
+		},
+		{
+			"name": "Srinagar",
+			"temperature": -5,
+			"type": "Snowy",
+			"description": "Cold and possibility of snow at night"
+		},
+		{
+			"name": "Manali",
+			"temperature": 1,
+			"type": "Snowy",
+			"description": "Cold with rain"
+		}
+	]
+}
